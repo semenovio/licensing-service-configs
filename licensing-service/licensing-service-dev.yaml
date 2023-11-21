@@ -12,3 +12,4 @@ management:
       show-values: ALWAYS
     health:
       show-details: always
+param: param
