@@ -1,9 +1,9 @@
-#spring:
-#  application:
-#    name: eureka-server
-#  boot:
-#    admin:
-#      context-path: /admin
+spring:
+  application:
+    name: eureka-server
+  boot:
+    admin:
+      context-path: /admin
 server:
   port: 8070
 eureka:
@@ -17,9 +17,9 @@ eureka:
   server:
     waitTimeInMsWhenSyncEmpty: 5
 
-#
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: "*"
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
