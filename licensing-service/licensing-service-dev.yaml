@@ -4,9 +4,6 @@ server:
   port: 8080
 
 eureka:
-  instance:
-    preferIpAddress: true
-    hostname: eurekaserver
   client:
     registerWithEureka: true
     fetchRegistry: true
